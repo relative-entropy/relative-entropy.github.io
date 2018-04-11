@@ -15,4 +15,6 @@ actions:
   - label: "Twitter"
     icon: twitter
     url: "https://twitter.com/sigstart"
+styles:
+  - creative-commons.css
 ---

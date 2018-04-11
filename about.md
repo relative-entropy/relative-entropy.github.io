@@ -1,6 +1,8 @@
 ---
 title: "About"
 layout: about
+styles:
+  - creative-commons.css
 ---
 
 Relative Entropy offers software and web development, freelance technology

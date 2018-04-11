@@ -42,7 +42,7 @@ liquid:
 
 # Build settings
 markdown: kramdown
-remote_theme: "sigstart/jekyll-theme-basically-basic
+remote_theme: sigstart/jekyll-theme-basically-basic
 plugins: # previously gems
   - jekyll-feed
   - jekyll-seo-tag

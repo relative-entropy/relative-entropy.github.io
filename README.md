@@ -1,2 +1,2 @@
-# relative-entropy.github.io
-This is a website.
+# Greatest website in the world
+This is not the greatest website in the world. This is just a tribute.

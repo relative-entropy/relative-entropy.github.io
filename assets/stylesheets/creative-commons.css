@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'cc-icons';
+  font-style: normal;
+  font-weight: normal;
+  src: url('http://mirrors.creativecommons.org/presskit/cc-icons.ttf') format('truetype');
+}
+
+.cc {
+  font-family: 'cc-icons';
+}

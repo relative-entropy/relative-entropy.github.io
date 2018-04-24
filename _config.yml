@@ -18,7 +18,7 @@ title: Relative Entropy
 email: ehlo@entropy.co.za
 description: "Information from chaos"
 baseurl: "/"  # the subpath of your site, e.g. /blog
-url: ""  # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://entropy.co.za"  # the base hostname & protocol for your site, e.g. http://example.com
 author:
   name: Jan Vermeulen
   twitter: SIGSTART
@@ -40,10 +40,14 @@ algolia:
 liquid:
   error_mode: strict
 
+# Theme
+remote_theme: sigstart/jekyll-theme-basically-basic #Production
+# theme: jekyll-theme-basically-basic #Development
+
+
 # Build settings
 markdown: kramdown
-remote_theme: sigstart/jekyll-theme-basically-basic
-plugins: # previously gems
+plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap

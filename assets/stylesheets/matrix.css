@@ -10,7 +10,6 @@ html, body {
 }
 .intro {
   position: relative;
-  display: table;
   width: 100%;
   height: 100%;
   min-height: 100vh;
@@ -29,14 +28,16 @@ html, body {
   height: 100vh;
 }
 .intro .inner {
-  position: relative;
-  display: table-cell;
-  vertical-align: bottom;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  max-width: 100%;
 }
 .intro-text {
-  max-width: intrinsic;           /* Safari/WebKit uses a non-standard name */
   max-width: -moz-max-content;    /* Firefox/Gecko */
-  max-width: -webkit-max-content; /* Chrome */
+  max-width: -webkit-max-content; /* Chrome/Safari/Opera */
   margin: 2rem auto;
   border-radius: 15px 50px 30px;
   padding: 3rem;
